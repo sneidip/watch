@@ -161,8 +161,7 @@ body > .people {
   
  display: block;
 }
-
-
-
-
-
+.car {
+  max-width:10vmin;
+  height:auto;
+}
