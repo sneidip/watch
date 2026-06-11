@@ -93,3 +93,7 @@ ul{
   width: 96vw;
   font-size: 3vh;
 }
+.car {
+  max-width:10vmin;
+  height:auto;
+}
