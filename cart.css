@@ -230,3 +230,7 @@ li a:hover {
 .prod{
   height: 23vmin;
 }
+.car {
+  max-width:10vmin;
+  height:auto;
+}
