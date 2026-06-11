@@ -221,3 +221,8 @@ Grid-column:2;
  .center-text h1{ 
    
 font-size:70px;
+ }
+.car {
+  max-width:10vmin;
+  height:auto;
+}
