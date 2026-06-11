@@ -1,0 +1,95 @@
+.first {
+  background-image: url(https://files.catbox.moe/tz60pl.png), linear-gradient(#514f5c, black);
+}
+.second {
+  background-image: url(https://files.catbox.moe/j32l57.png), linear-gradient(#cacbcc, #606061);
+}
+.third {
+  background-image: url(https://files.catbox.moe/mv2zoo.png), linear-gradient(#001f65, #6895fd);
+}
+.fourth {
+  background-image: url(https://files.catbox.moe/2rz74z.png), linear-gradient(#731919, #bd0202);
+}
+.fifth {
+  background-image: url(https://files.catbox.moe/ues1c6.png), linear-gradient(#785c3a, #e2c29a);
+}
+h1 {
+  color: white;
+  font-size: 6.5vmin;
+  font-weight: bolder;
+  text-align: center;
+}
+.desc {
+  text-align: center;
+  font-size: 2.7vmin;
+  color: white;
+  width: 56vw;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+img {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  margin: 5vmin 0 1vmin 0;
+  height: 45vmin;
+}
+body {
+  margin: 0;
+}
+.container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+  height: 90.6vh;
+}
+.watch {
+  scroll-snap-align: start;
+  background-size: 900px;
+  height: 90.6vh;
+  width: 100vw;
+}
+.price {
+  font-weight: bold;
+  font-size: 3.3vmin;
+  color: white;
+  text-align: center;
+  margin: 1vmin;
+}
+li{
+  position: relative;
+}
+.logo{
+  margin-right: auto;
+  font-size: 5vh;
+  font-weight: 300;
+  color: white;
+}
+li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 1vmin 4vmin;
+  font-size: 3vmin;
+  transition: 0.3s;
+}
+li a:hover{
+  background-color: red;
+  border-radius: 8px;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 1vh 2vw;
+  overflow: hidden;
+  background-color: #000000;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 2vw;
+  width: 96vw;
+  font-size: 3vh;
+}
