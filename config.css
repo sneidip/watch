@@ -1,0 +1,223 @@
+*{
+ Margin:0;
+  
+ padding:0; 
+  
+box-sizing:border-box; 
+  
+font-family: Arial;
+  
+ } 
+body{
+
+ background:black; 
+   
+color:white; 
+  
+Overflow-x:hidden;
+  
+ } 
+
+ul{
+
+ list-style-type:none; 
+  
+margin:0; 
+  
+padding:10px 30px;
+  
+ overflow:hidden; 
+  
+background-color:#000; 
+  
+display:flex; justify-content:flex-end; 
+  
+Align-items:center;
+  
+ gap:25px; 
+  
+} 
+
+
+.logo{
+
+ margin-right:auto;
+  
+ Font-size:55px;
+  
+ Font-weight:300;
+  
+ }
+
+li{
+
+ Position:relative;
+   
+ } 
+li a, 
+
+.dropbtn{
+  
+ display:inline-block; 
+  
+color:white; 
+  
+Text-align:center;
+  
+ Text-decoration:none;
+  
+ padding:12px 18px; 
+  
+Font-size:26px;
+  
+ transition:0.3s;
+}
+
+ li a:hover, 
+
+.dropdown:hover .dropbtn{
+
+ Background-color:red;
+  
+ border-radius:8px; 
+  
+} 
+.dropdown-content{
+  
+ display:none; 
+  
+position:absolute; 
+  
+top:100%;
+  
+ left:0; 
+  
+background:#111; 
+  
+minimum-width:200px; 
+  
+border-radius:10px;
+  
+ overflow:hidden; 
+  
+z-index:1000; 
+  
+}
+ .dropdown-content a{ 
+   
+display:block;
+   
+ padding:14px 18px; 
+   
+color:white;
+   
+ Text-decoration:none;
+   
+ Transition:0.3s;
+   
+ }
+ .dropdown-content a:hover{ 
+   
+   background:red;
+
+} 
+
+.dropdown:hover .dropdown-content{
+  
+ display:block; 
+  
+} 
+ .configure{
+   
+ minimum-height:100vh;
+   
+padding:40px; 
+   
+background:linear-gradient(
+  
+  90deg, #000000, #1d2730, #4f5c63 ); 
+   
+} 
+
+.title{ 
+  
+text-align:center; 
+  
+Font-size:120px;
+  
+ font-weight:300; 
+  
+Margin-bottom:50px;
+  
+ }
+ .watch-wheel{
+   
+ display:grid; 
+   
+grid-template-columns:1fr 1fr 1fr;
+   
+ gap:50px;
+   
+ justify-items:center; 
+   
+align-items:center;
+   
+ }
+ .watch-show{ 
+   
+Text-align:center;
+   
+ }
+ .watch-show h2
+
+{ 
+Font-size:45px;
+  
+ Font-weight:300;
+  
+ Margin-bottom:20px;
+  
+ }
+
+ .bold{ 
+   
+font-weight:700;
+   
+ }
+ .watch-show img{
+   
+Width:280px;
+   
+ filter:drop-shadow( 0px 0px 30px rgba(255,255,255,0.25) );
+   
+ Transition:0.3s;
+   
+ }
+
+ .watch-show img:hover{
+   
+ transform:scale(1.05); 
+   
+}
+
+ .watch-show p{ 
+   
+Margin-top:20px;
+   
+ Font-size:22px;
+   
+ color:#ddd; 
+   
+}
+ .center-text{ 
+   
+text-align:center; 
+   
+Grid-column:2;
+   
+ Grid-row:2;
+   
+ }
+ .center-text h1{ 
+   
+font-size:70px;
