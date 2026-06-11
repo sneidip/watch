@@ -28,7 +28,7 @@ body{
 	align-items: center;
 }
 .Heading{
-	font-size: 7vh;
+	font-size: 7vmin;
 	font-family: 'Arial';
 	font-weight: 700;
 	color: #2F3841;
@@ -60,15 +60,15 @@ body{
 }
 .title{
 	padding-top: 10px;
-	line-height: 5vh;
-	font-size: 5vh;
+	line-height: 2vw;
+	font-size: 2vw;
 	font-family: 'Verdana';
 	font-weight: 800;
 	color: #202020;
 }
 .subtitle{
-	line-height: 3vh;
-	font-size: 3vh;
+	line-height: 3vmin;
+	font-size: 3vmin;
 	font-family: 'Verdana';
 	font-weight: normal;
 	color: #909090;
@@ -80,9 +80,12 @@ body{
 	align-items: center;
 }
 .btn{
-	width: 40px;
-	height: 40px;
+	width: 4vw;
+	height: 4vw;
+  max-height: 40px;
+  max-width:40px;
 	border-radius: 50%;
+  font-size: 2vw;
 	background-color: #b5b5b5;
 	display: flex;
 	justify-content: center;
@@ -201,6 +204,7 @@ ul {
   gap: 2vw;
   width: 96vw;
   font-size: 3vh;
+  max-font-size: 1vw;
 }
 li{
   position: relative;
@@ -228,7 +232,11 @@ li a:hover {
   color: white;
 }
 .prod{
-  height: 23vmin;
+  width: 12vw;
+  height: auto;
+  max-width: 150px;
+  max-height: 25vh;
+  width: auto;
 }
 .car {
   max-width:10vmin;
