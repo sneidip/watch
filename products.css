@@ -96,4 +96,6 @@ ul{
 .car {
   max-height:5vh;
   width:auto;
+  margin:0;
+  padding:0;
 }
