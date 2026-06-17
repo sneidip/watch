@@ -239,6 +239,10 @@ li a:hover {
   width: auto;
 }
 .car {
-  max-width:10vmin;
-  height:auto;
+  max-height:5vh;
+  width:auto;
+  margin:0;
+}
+.ca{
+  padding:0px;
 }
