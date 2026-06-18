@@ -8,16 +8,17 @@
 	align-items: center;
 }
 body{
-  margin: 0;
+	margin:0;
+	font-family:Sans Serif;
 }
 .CartContainer{
 	width: 70%;
 	height: 85%;
-  background: linear-gradient(to bottom right, #dfe4f5, #acb1bf);
-  border-radius: 20px;
-  box-shadow: 0px 10px 20px #1687d933;
-  position: relative;
-  top: 5vh;
+	background: linear-gradient(to bottom right, #dfe4f5, #acb1bf);
+	border-radius: 20px;
+	box-shadow: 0px 10px 20px #1687d933;
+	position: relative;
+	top: 5vh;
 }
 .Header{
 	margin: auto;
