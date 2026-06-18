@@ -187,13 +187,29 @@ hr{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-
-ul {
-  margin: auto;
-  width: 100%;
-  position: fixed;
-  background-color: #000000;
-  top: 0;
+li{
+  position: relative;
+}
+.logo{
+  margin-right: auto;
+  font-size: 5vh;
+  font-weight: 300;
+  color: white;
+}
+li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 1vmin 4vmin;
+  font-size: 3vmin;
+  transition: 0.3s;
+}
+li a:hover{
+  background-color: red;
+  border-radius: 8px;
+}
+ul{
   list-style-type: none;
   margin: 0;
   padding: 1vh 2vw;
@@ -205,32 +221,6 @@ ul {
   gap: 2vw;
   width: 96vw;
   font-size: 3vh;
-  max-font-size: 1vw;
-}
-li{
-  position: relative;
-}
-li a {
-  float: center;
-  text-align: center;
-  display: inline-block;
-  color: white;
-  text-decoration: none;
-  padding: 1vmin 4vmin;
-  margin: 1vmin;
-  font-size: 3vmin;
-  transition: 0.3s;
-}
-
-li a:hover {
-  background-color: red;
-  border-radius: 8px;
-}
-.logo{
-  margin-right: auto;
-  font-size: 5vh;
-  font-weight: 300;
-  color: white;
 }
 .prod{
   width: 12vw;
