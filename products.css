@@ -37,6 +37,7 @@ img {
 }
 body {
   margin: 0;
+  font-family:Sans Serif;
 }
 .container {
   scroll-snap-type: y mandatory;
